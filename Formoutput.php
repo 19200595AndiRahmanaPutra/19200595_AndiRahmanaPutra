@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tampil Data Mahasiswa</title>
+	<title>Tampil Data Pembeli</title>
 </head>
 <body>
 	<center>
 		<table>
 			<tr>
 				<th colspan="3">
-					Tampil Data Mahasiswa
+					Tampil Data Pembeli
 				</th>
 			</tr>
 			<tr>
@@ -17,29 +17,43 @@
 				</td>
 			</tr>
 			<tr>
-				<th>NIM</th>
+				<th>Nama</th>
 				<th>:</th>
 				<td>
-					<?= $nim; ?>
+					<?= $nama; ?>
+					</td>
+			</tr>
+			<tr>
+				<th>Nomor Hp</th>
+				<th>:</th>
+				<td>
+					<?= $nomor; ?>
+					</td>
+			</tr>
+				<tr>
+					<th>Merk</th>
+					<th>:</th>
+					<td>
+					<?= $merk; ?>
 					</td>
 				</tr>
 				<tr>
-					<td>Nama Mahasiswa</td>
-					<td>:</td>
+					<th>Ukuran</th>
+					<th>:</th>
 					<td>
-						<?= $nama; ?>	
-						</td>
-					</tr>
-					<tr>
-						<td>Program Studi</td>
-						<td>:</td>
-						<td>
-							<?= $prodi; ?>	
-							</td>
-						</tr>
+					<?= $ukuran; ?>
+					</td>
+				</tr>
+				<tr>
+					<th>Harga</th>
+					<th>:</th>
+					<td>
+					<?= $harga; ?>
+					</td>
+				</tr>
 						<tr>
 							<td colspan="3" align="center">
-								<a href="<?=base_url('mahasiswa');?>">Kembali<</a>
+								<a href="<?=base_url('sepatu');?>">Kembali</a>
 							</td>
 						</tr>
 					</table>
